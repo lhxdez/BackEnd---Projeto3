@@ -28,3 +28,5 @@ setTimeout(()=>{
     if(mongoose.connection.readyState===1)
         console.log("Backend Conected")
 }, process.env.SERVER_CHECKDELAY)
+
+app.listen(process.env.PORT || 3000);
