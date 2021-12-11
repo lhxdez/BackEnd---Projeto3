@@ -29,4 +29,4 @@ setTimeout(()=>{
         console.log("Backend Conected")
 }, process.env.SERVER_CHECKDELAY)
 
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 3030);
